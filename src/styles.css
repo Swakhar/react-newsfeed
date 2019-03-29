@@ -1,4 +1,119 @@
-.App {
-  font-family: sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #f3f3f3;
+  font-family: Roboto;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.line{
+  position: absolute;
+  z-index: 0;
+  top: 50px;
+  left: 85px;
+  height: calc(100% + 200px);
+  width: 0px;
+  border-right: 1px solid #84827d;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row div {
+  width: 100%;
+}
+
+.row div img {
+  width: 100%;
+}
+
+/* .row ::after {
+  content: "";
+  display: block; 
+  height: 0; 
+  clear: both;
+} */
+
+.row .date{
+  float: left;
+  width: 4%;
+  margin: 20px;
+  color: #84827d;
+  border-radius: 10px;
   text-align: center;
+  line-height: 1.9em;
+  font-size: 1.4em;
+}
+
+.row .date span{
+  font-size: 13px;
+  text-align: right;
+}
+
+.row .circle{
+  position: relative;
+  float: left;
+  z-index: 10;
+  margin: 30px 0 0 -5px;
+  width: 20px;
+  height: 20px;
+  background-color: #84827d;
+  border-radius: 50%;
+}
+
+.announcement .context{
+  background: #fff;
+  float: left;
+  color: #666;
+  width: 90%;
+  min-height: 40px;
+  margin: 20px 0 10px 10px;      
+  padding: 20px;
+  line-height: 1.5em;
 }
