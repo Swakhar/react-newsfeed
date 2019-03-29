@@ -85,6 +85,7 @@ class NewsList extends Component {
                       <CommentOnIdea
                         {...item}
                         key={item.id}
+                        more={news_item.more}
                       />
                     )
                   )

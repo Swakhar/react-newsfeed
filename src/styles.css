@@ -73,13 +73,6 @@ body {
   width: 100%;
 }
 
-/* .row ::after {
-  content: "";
-  display: block; 
-  height: 0; 
-  clear: both;
-} */
-
 .row .date{
   float: left;
   width: 4%;
@@ -165,6 +158,10 @@ body {
   vertical-align: top;
 }
 
+.comment-network .context .content-text a {
+  color: red;
+}
+
 .new-idea .context .images {
   width: 100%;
 }
@@ -172,4 +169,30 @@ body {
 .new-idea .context .images img{
   width: 20%;
   margin-right: 1%; 
+}
+
+@media (max-width: 767px) {
+  .line {
+    display: none;
+  }
+
+  .row .circle {
+    display: none;
+  }
+
+  .row .context {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .row .circle {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .row .context {
+    width: 80%;
+  }
 }

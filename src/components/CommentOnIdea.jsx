@@ -12,7 +12,7 @@ const CommentOnIdea = props => (
             <img src={props.user.image} alt={props.user.name} className="user-image" />
         </div>
         <div className="content-text">
-          {ReactHtmlParser(props.text.content)}
+          {ReactHtmlParser(props.text.content)} {props.more ? <a href="#">read more</a> : null }
         </div>
       </div>
     </React.Fragment>
