@@ -238,7 +238,7 @@ const JsonResponse = {
                 "name": "Anna  Sokolova",
                 "image": "https://uploads3.jovo.to/profiles/icons/62931/avvvv_thumb.jpg?1484736685",
                 "path": "/community/Plushbrush",
-                "jo": false
+                "jo": true
               },
               "idea": {
                 "image": "https://uploads0.jovo.to/idea_attachments/775180/01-saint-petersburg_medium.jpg?1497269447",

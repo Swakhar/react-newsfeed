@@ -107,7 +107,7 @@ body {
   border-radius: 50%;
 }
 
-.announcement .context{
+.row .context{
   background: #fff;
   float: left;
   color: #666;
@@ -116,4 +116,60 @@ body {
   margin: 20px 0 10px 10px;      
   padding: 20px;
   line-height: 1.5em;
+}
+
+.comment-network .context h4 {
+  font-weight: bold;
+}
+
+.comment-network .context h4 span {
+  color: red;
+}
+
+.comment-network .context h4 span.jo {
+  background: #000;
+  color: #fff;
+  border-radius: 50%; 
+}
+
+.comment-network .context .comments {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.comment-network .context .comments:not(:last-child) {
+  border-bottom: 1px solid #dcdbdb;
+}
+
+.comment-network .context .image-details {
+  width: 25%;
+  display: inline-block;
+}
+
+.comment-network .context .image-details img{
+  width: 30%;
+}
+
+.comment-network .context .image-details .user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-left: -20px;
+  margin-top: 15px;
+}
+
+.comment-network .context .content-text {
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.new-idea .context .images {
+  width: 100%;
+}
+
+.new-idea .context .images img{
+  width: 20%;
+  margin-right: 1%; 
 }
